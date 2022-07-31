@@ -1,6 +1,5 @@
 import React from 'react'
-import Expertise from './Expertise'
-import layers from './images/layered.png'
+
 const SecondPage = () => {
   return (
     <>
@@ -8,7 +7,7 @@ const SecondPage = () => {
     Things I Love
     </div>
     {/* main div */}
-        <div  className='bg-layers flex p-5 justify-between' > 
+        <div  className='bg-layers flex p-1/5 justify-between' > 
 
 {/* first div */}
                 

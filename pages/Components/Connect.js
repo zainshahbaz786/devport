@@ -1,27 +1,30 @@
 import React from 'react'
 import handshake from './images/shake.svg'
 
+
 import linkedin from './images/linkedin2.png'
 import gmail from './images/gmail2.png'
 import github from './images/github2.png'
 import Image from 'next/image'
 const Connect = () => {
+
+  function sending(){
+console.log("sending data.....")
+
+  }
+
+
   return (
+    
     <>
+    
     <div className="pt-10 text-sm text-slate-400">
             <a href="#" className="">
               04---Contact Me
             </a>
     </div>
 
-    <div className="text-3xl font-serif text-green-400 w-1/4" style={{
-   backgroundImage:"https://developerjunaid.com/static/media/shake.e324d300.svg",
-  
-   backgroundRepeat: "no-repeat",
-   backgroundSize: "cover"
-
-
-    }}>
+    <div className="text-3xl font-serif text-green-400 w-1/4">
             Let&apos;s Build Something Incredible Together.
           </div>
     
@@ -39,14 +42,14 @@ const Connect = () => {
     
     {/* main divs of two divs */}
     
-    <div className='flex justify-center ' >
+    <div className='flex justify-center  ' >
         {/* 1st div */}
-      <div className=' w-1/2'>
-      <Image
+      <div className=' sm:w-1/2 '>
+      <Image className='object-contain'
       src={handshake}
       alt="Picture of the author"
-      width="400px"
-      height="400px"
+      width="300px"
+      height="300px"
       
     />
       </div>
@@ -55,44 +58,48 @@ const Connect = () => {
 <br/>
 {/* 2nd div */}
       <div className=' w-1/2   justify-center  text-center '>
-        <br/>
-        <br/>
-        <br/>
-        <div>
-            <div className='text-xl font-serif  font-medium text-blue-500'>Connect Me Here</div>
-      <a href="https://github.com/zainshahbaz786">
-      <Image
-      src={github}
-      alt="Picture of the author"
-      width="50px"
-      height="50px"
-      
-    />
-        </a>
-        </div>
+        
 
-        <div>
-<a href="https://www.linkedin.com/in/zain-shahbaz-874712165/">
-<Image
-      src={linkedin}
-      alt="Picture of the author"
-      width="50px"
-      height="50px"
-      
-    />
-</a>
+
+
+
+
+
+<form>
+<div className="mb-6 justify-center   ">
+  <label htmlFor="username-success" className="block mb-2 text-sm font-medium text-green-700 dark:text-green-500">Your name</label>
+  <input type="text" id="username" className="bg-green-50 border border-green-500 text-green-900 placeholder-green-700 text-sm rounded-lg focus:ring-green-500 focus:border-green-500  sm:w-1/2 p-2.5 dark:bg-green-100 dark:border-green-400 justify-center " placeholder="" />
+  
+ 
 </div>
-<div>
-<a href="mailto:zainjatt.zj@gmail.com">
-<Image
-      src={gmail}
-      alt="Picture of the author"
-      width="50px"
-      height="50px"
-      
-    />
-</a>
-</div>
+
+
+<label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+<input type="email" id="email" aria-describedby="helper-text-explanation" className="bg-green-50 border border-green-500 text-green-900 placeholder-green-700 text-sm rounded-lg focus:ring-green-500 focus:border-green-500  sm:w-1/2 p-2.5 dark:bg-green-100 dark:border-green-400 justify-center" placeholder="" />
+
+
+
+<br/>
+<br/>
+<label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+
+
+<textarea id="message" rows="4" className="block p-2.5 w-full text-sm
+
+text-gray-900  rounded-lg border border-green-500 focus:ring-green-700 focus:border-green-500 dark: bg-green-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+
+
+
+<br/>
+
+<button  type="Submit" onClick={sending} className="text-white bg-green-400 border-black hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-black-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+  Send Message</button>
+
+
+</form>
+
+
+
       </div>
 
 
@@ -102,17 +109,16 @@ const Connect = () => {
     
   {/* footer */}
 
-  <div className='Footer'>
+  <div className='Footer bg-slate-100'>
   <hr className="my-4 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-2" />
-    <div className="sm:flex sm:items-center sm:justify-between">
+    <div className="flex items-center justify-between">
 
-    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 hover:text-green-600 hover:underline">Develop with 💚 by Zain Shahbaz
-        </span>
+    <div className="w-1/3  text-sm text-gray-500 sm:text-center md:text-center lg:text-center dark:text-gray-400 hover:text-green-600 hover:underline   ">Develop with 💚 by Zain Shahbaz
+        </div>
 
-        {/* <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.
-        </span> */}
+       
 
-        <div className="flex mt-2 space-x-0 sm:justify-center sm:mt-0">
+        <div className="flex mt-2 space-x-0   w-1/3 justify-around mb-5">
             <a href="https://www.facebook.com/zain.shahbaz.714" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" /></svg>
             </a>

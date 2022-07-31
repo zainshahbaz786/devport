@@ -4,15 +4,24 @@ import IntroPage from './IntroPage'
 import SecondPage from './SecondPage'
 import Topbar from './Topbar'
 import Connect from './Connect'
+import Projects from './Projects'
+
+
+
+
 
 const Home = () => {
   return (
       <>
-     <Topbar/>
-    <IntroPage/>
-  <SecondPage/>
-  <Expertise/>
-  <Connect/>
+      <section id="Introduction"><Topbar/><IntroPage/><SecondPage/></section>
+     
+     <section id="Expertise"><Expertise/></section>
+    
+  
+  <section id="Projects"><Projects/></section>
+
+  <section id="ContactUs"><Connect/></section>
+  
     </>
   )
 }

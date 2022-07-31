@@ -22,10 +22,10 @@ const Expertise = () => {
 
 
 {/* div of language, frameworks and platforms */}
-<div className='flex justify-center mt-4' >
+<div className='flex justify-evenly mt-4' >
 
 {/* 1st div */}
-    <div className='w-1/3 '>
+    <div className=' w-1/4  '>
         <div className='text-lg font-medium border-4 border-indigo-200 border-l-indigo-500 '>Languages</div>
         <div className='font-serif text-neutral-600  '>
         I mostly work with Javascript and feel myself quite good at web technologies like HTML/CSS, TailwindCSS, TypeScript and Javascript.
@@ -39,7 +39,7 @@ const Expertise = () => {
     </div>
    
 {/* second div */}
-    <div className='w-1/3 '>
+    <div className='w-1/4 '>
       <div className='text-lg font-medium border-4 border-indigo-500/50'>Frameworks</div>
       <div className='font-serif text-neutral-600'>
       I look at frameworks as just a tool to get things done and thats why I am always open to different
@@ -51,7 +51,7 @@ const Expertise = () => {
 
     </div>
     {/* 3rd div */}
-    <div className='w-1/3 '>
+    <div className='w-1/4 '>
         <div className='text-lg font-medium border-4 border-indigo-200 border-r-indigo-500'>Platforms & Tools</div>
         <div className='font-serif text-neutral-600'>Some of the platforms & tools I use regularly 
         include Figma, Git, Github, VsCode,Visual Studio. I use Windows as primary OS but had been a great 
@@ -63,8 +63,15 @@ const Expertise = () => {
 
 
 </div>
-    
-    
+
+<br/>
+<br/>
+<br/>
+{/* <div className="text-2xl font-serif text-green-400 w-1/3">
+            Additional Skillsets I worked with.
+</div>
+
+    */}
     
     
     

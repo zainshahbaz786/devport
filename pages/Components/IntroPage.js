@@ -1,38 +1,51 @@
 import React from "react";
 import Image from "next/image";
 import dp from "./images/zaindp2.jpg";
+import useDownloader from "react-use-downloader";
 // import myPDF from './Zain Shahbaz.pdf';
 
 const IntroPage = () => {
+  
+
+const fileUrl = "/Zain_Shahbaz.pdf";
+const filename = "Zain_Shahbaz.pdf";
+
+  function downldfile() {
+    console.log("working...")
+     download(fileUrl, filename)
+  }
   return (
     <>
-      <div className="justify-center relative mx-96  mt-10 flex  ">
+
+    
+
+      <div className="justify-center relative   mt-10 flex  ">
         Hello, I&apos;m <br />
       </div>
-      <div className="text-5xl  font-sans font-semibold justify-center relative mx-20   flex">
+      <div className="text-5xl  font-sans font-semibold  justify-center relative    flex">
         {" "}
         Zain Shahbaz
       </div>
 
-      <div className="text-2xl  font-serif  justify-center relative mx-20   flex">
+      <div className="text-2xl  font-serif  justify-center   relative    flex">
         {" "}
         Front End Developer
         
       </div>
       <div className="justify-center flex pt-3">
-        <button
+        <a
           type="button"
-          className=" justify-center ring-offset-2 ring relative flex text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
-        >
+          className=" justify-center ring-offset-2 ring relative flex text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center "  download="Zain_Shahbaz.pdf" href={"./Zain_Shahbaz.pdf"} >
+        
           Download Resume
-          {/* <a href={myPDF} download="Zain_Shahbaz.pdf"> 
-          Download Resume
-          </a> */}
-        </button>
+         
+        </a>
       </div>
+
+
       {/* half page div */}
-      <div className="flex ">
-        <div>
+      <div className="flex  mb-5 ">
+        <div className="w=1/2">
           <div className="pt-10 text-sm text-slate-400">
             <a href="#" className="">
               01---Welcome
@@ -41,7 +54,7 @@ const IntroPage = () => {
           <div className="text-3xl font-serif text-green-400">
             Greetings Everyone,
           </div>
-          <div className="font-serif text-neutral-600">
+          <div className="font-serif text-neutral-600  ">
             Hi there, Im a self-taught passionate FrontEnd Web developer from
             Paksitan.
             <br />
@@ -56,15 +69,15 @@ const IntroPage = () => {
         </div>
 
         {/* second half page div */}
-        <div className="ml-40 mt-16">
-          <Image
+        <div className="flex justify-end w-1/2 ">
+          <Image 
             src={dp}
             alt="Landscape picture"
-            width={200}
-            height={200}
-            className="rounded-full"
+            width={300}
+            height={300}
+            className="rounded-full border-double  object-contain"
           />
-          {/* https://media-exp2.licdn.com/dms/image/C4D1BAQGBsG1LtBbBbA/company-background_10000/0/1579099145734?e=2147483647&v=beta&t=jB_90Bu2kMC6DDAP7cTuwG5P_U7eAPFJEbLxBMzXwas */}
+          
         </div>
       </div>
 
