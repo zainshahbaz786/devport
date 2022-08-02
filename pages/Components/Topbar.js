@@ -1,10 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
 
+
 const Topbar = () => {
   return (
 <>
-  <div className="bg-sky-200 sm:justify-evenly container flex justify-evenly p-2 sm:bg-purple-300 md:bg-green-300 ">
+
+  <div className="bg-sky-200 sm:justify-evenly  flex justify-evenly p-2 sm:bg-purple-300 md:bg-green-300 w-full  lg:bg-green-300 lg:w-full ">
             
      {/* effect 2 */}
           <div className="btn relative pl-1/4  select-none inline-flex items-center justify-start  transition-all  rounded  group ">
@@ -49,7 +51,6 @@ const Topbar = () => {
 
        
     </div>
-    
     
     
     </>

@@ -2,9 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 
 
+
+
+
 const Projects = () => {
   return (
     <>
+ 
     <div className="pt-10 text-sm text-slate-400">
             <a href="#" className="">
               03---My projects
@@ -20,15 +24,15 @@ const Projects = () => {
     <div  className='flex order-3 justify-evenly'>
 {/* start of 1st card */}
 
-<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"> 
+<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-300 select-none"> 
     <a href="#">
-        <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/>
+        {/* <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/> */}
     </a>
     <div className="p-3">
-        <a href="#">
+       
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  text-center">
                 All Essentials</h5>
-        </a>
+        
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Final Year Project based on MERN based technology.Here registered users are stored using MogoDB.Static data is diplayed on the website.As Backend is used for data synchonizing</p>
         <div className='text-center justify-center'>
         <a href="https://github.com/zainshahbaz786/All-Essentials-FYP" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -37,10 +41,10 @@ const Projects = () => {
         </a>
 
         {/* for viewing video */}
-        <a type="button" href="#" className="text-green-600 border py-2 px-3 border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
+    {/*    <a type="button" href="#" className="text-green-600 border py-2 px-3 border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
   <svg aria-hidden="true" className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
   <span className="sr-only">Icon description</span>
-</a>
+</a> */}
         </div>
     </div>
 </div>
@@ -50,39 +54,39 @@ const Projects = () => {
 
 
 
-<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-300 select-none ">
     <a href="#">
-        <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/>
+        {/* <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/> */}
     </a>
     <div className="p-3">
-        <a href="#">
+        
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Restaurant App on React JS</h5>
-        </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">This React App show the static data of meal of Breakfast , Lunch , Dinner and All with details with an attractive User Interface. As this website is responsive as well </p>
+        
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 select-none">This React App show the static data of meal of Breakfast , Lunch , Dinner and All with details with an attractive User Interface. As this website is responsive as well </p>
         <div className='text-center justify-center'>
         <a href="https://github.com/zainshahbaz786/Resturant-App-on-React" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Github Repo Link
             <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
         </a>
           {/* for viewing video */}
-          <a type="button" href="#" className="text-green-600 border py-2 px-3  border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
+          {/* <a type="button" href="#" className="text-green-600 border py-2 px-3  border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
   <svg aria-hidden="true" className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
   <span className="sr-only">Icon description</span>
-</a>
+</a> */}
         </div>
     </div>
 </div>
 
 {/* end of second card */}
 
-<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-300 select-none">
     <a href="#">
-        <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/>
+        {/* <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/> */}
     </a>
     <div className="p-3">
-        <a href="#">
+        
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Virtual Doctor</h5>
-        </a>
+        
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">It is desktop application based on .NET technology that contain database of doctors. This desktop application also used ML  for predicting the disease from the symptoms.</p>
         <div className='text-center justify-center'>
         <a href="https://github.com/zainshahbaz786/Virtual-Doctor" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -91,10 +95,10 @@ const Projects = () => {
         </a>
       
           {/* for viewing video */}
-          <a type="button" href="#" className="text-green-600 border py-2 px-3 border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
+      {/*    <a type="button" href="#" className="text-green-600 border py-2 px-3 border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
   <svg aria-hidden="true" className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
   <span className="sr-only">Icon description</span>
-</a>
+</a> */}
         </div>
     </div>
 </div>
@@ -103,18 +107,19 @@ const Projects = () => {
 
 
     </div>
-
+<br/>
+<br/>
     <div  className='flex order-3 justify-evenly'>
 {/* Second Row 1st card */}
 
-<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-300 select-none">
     <a href="#">
-        <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/>
+        {/* <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/> */}
     </a>
     <div className="p-3">
-        <a href="#">
+        
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Customize It </h5>
-        </a>
+        
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Interior Designing App  based on superimposing feature on the Image with the store of home accessories.It provide facility of taking pic of room and try it by superimposing it</p>
         <div className='text-center justify-center'>
         <a href="https://github.com/zainshahbaz786/Customize-It" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -122,24 +127,24 @@ const Projects = () => {
             <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
         </a>
           {/* for viewing video */}
-          <a type="button" href="#" className="text-green-600 border py-2 px-3 border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
+      {/*    <a type="button" href="#" className="text-green-600 border py-2 px-3 border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
   <svg aria-hidden="true" className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
   <span className="sr-only">Icon description</span>
-</a>
+</a> */}
         </div>
     </div>
 </div>
 
 {/* Second Row 2nd card */}
 
-<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-300 select-none">
     <a href="#">
-        <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/>
+        {/* <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/> */}
     </a>
     <div className="p-3">
-        <a href="#">
+        
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Quote Fetcher </h5>
-        </a>
+        
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">A Quote Fetching App using Next JS that randomly suggest quote on the screen as for the pupose of showing something mood changing and creative act.</p>
       <div className='text-center justify-center'>
         <a href="https://github.com/zainshahbaz786/quote-fetcher" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -147,10 +152,10 @@ const Projects = () => {
             <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
         </a>
           {/* for viewing video */}
-          <a type="button" href="#" className="text-green-600 border py-2 px-3 border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
+      {/*    <a type="button" href="#" className="text-green-600 border py-2 px-3 border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
   <svg aria-hidden="true" className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
   <span className="sr-only">Icon description</span>
-</a>
+</a> */}
         </div>
     </div>
 </div>
@@ -158,14 +163,14 @@ const Projects = () => {
 
 {/* Second Row 3rd card */}
 
-<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div className="max-w-sm w-1/3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-300 select-none">
     <a href="#">
-        <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/>
+        {/* <Image className="rounded-t-lg" src="/images/zaindp.jpeg" width="150px" height="150px" alt=""/> */}
     </a>
     <div className="p-3">
-        <a href="#">
+        
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Quote Fetcher </h5>
-        </a>
+        
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">A Quote Fetching App using Next JS that randomly suggest quote on the screen as for the pupose of showing something mood changing and creative act.</p>
       <div className='text-center justify-center'>
         <a href="https://github.com/zainshahbaz786/quote-fetcher" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -173,10 +178,10 @@ const Projects = () => {
             <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
         </a>
           {/* for viewing video */}
-          <a type="button" href="#" className="text-green-600 border py-2 px-3 border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
+      {/*    <a type="button" href="#" className="text-green-600 border py-2 px-3 border-black hover:bg-orange-300 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm  text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800">
   <svg aria-hidden="true" className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
   <span className="sr-only">Icon description</span>
-</a>
+</a> */}
         </div>
     </div>
 </div>
@@ -184,7 +189,7 @@ const Projects = () => {
 </div>
           
     
-    
+   
     </>
   )
 }

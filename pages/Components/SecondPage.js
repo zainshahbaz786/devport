@@ -1,13 +1,18 @@
 import React from 'react'
 
+
+
+
 const SecondPage = () => {
   return (
     <>
+
+
    <div className='font-serif text-green-400 text-3xl bg-blue-200 justify-center text-center font-medium'>
     Things I Love
     </div>
     {/* main div */}
-        <div  className='bg-layers flex p-1/5 justify-between' > 
+        <div  className='bg-layers flex p-1/5 justify-around' > 
 
 {/* first div */}
                 
