@@ -85,14 +85,14 @@ const name = document.querySelector('#username').value
 </div>
 
 
-<label htmlFor="email" className="block mb-2 text-sm font-medium text-green-700">Your email</label>
+<label htmlFor="email" className="block mb-2 text-sm font-medium text-green-700 dark:text-green-500">Your email</label>
 <input type="email" id="email" aria-describedby="helper-text-explanation" className="bg-green-50 border border-green-500 text-green-900 placeholder-green-700 text-sm rounded-lg focus:ring-green-500 focus:border-green-500  sm:w-1/2 p-2.5 dark:bg-green-100 dark:border-green-400 justify-center" placeholder="" />
 
 
 
 <br/>
 <br/>
-<label htmlFor="message" className="block mb-2 text-sm font-medium text-green-700">Your message</label>
+<label htmlFor="message" className="block mb-2 text-sm font-medium text-green-700 dark:text-green-500">Your message</label>
 
 
 <textarea id="message" rows="4" className="block p-2.5 w-full text-sm
