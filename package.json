@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@madzadev/image-slider": "^1.0.9",
+    
     "babel-preset-es2015": "^6.24.1",
     "next": "12.2.0",
     "next-images": "^1.8.4",
