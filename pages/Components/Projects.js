@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Aims from './Aims'
 
 
 
@@ -11,7 +12,7 @@ const Projects = () => {
  
     <div className="pt-10 text-sm text-slate-400">
             <a href="#" className="">
-              03---My projects
+              03---Some Highlighted Projects
             </a>
           </div>
           <div className="text-3xl font-serif text-green-400 w-1/4">
@@ -170,7 +171,7 @@ const Projects = () => {
 
 </div>
           
-    
+    {/* <Aims/> */}
    
     </>
   )

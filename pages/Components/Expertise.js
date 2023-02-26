@@ -15,7 +15,7 @@ const Expertise = () => {
           </div>
 
 
-          <div className='font-serif text-neutral-600 w-2/3 '>
+          <div className='font-serif text-neutral-600 w-1/3 '>
           I am a creative, enthusiastic, and ambitious developer with expertise in user interface design. 
           I am passionate about creating simple and elegant solutions that make complex tasks easy for users to execute.
           </div>
