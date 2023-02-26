@@ -1,14 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import dp from "./images/zaindp2.jpg";
-import useDownloader from "react-use-downloader";
-// import myPDF from './Zain Shahbaz.pdf';
+//import useDownloader from "react-use-downloader";
+ //import myPDF from './Zain_Shahbaz.pdf';
+ //import myCL from './Zain_CoverLetter.pdf';
 
 const IntroPage = () => {
   
 
 const fileUrl = "/Zain_Shahbaz.pdf";
 const filename = "Zain_Shahbaz.pdf";
+
+
 
   function downldfile() {
     console.log("working...")
@@ -32,14 +35,31 @@ const filename = "Zain_Shahbaz.pdf";
         Front End Developer
         
       </div>
-      <div className="justify-center flex pt-3">
+      <div className="justify-center flex pt-3 p-8">
         <a
-          type="button"
-          className=" justify-center ring-offset-2 ring relative flex text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center "  download="Zain_Shahbaz.pdf" href={"./Zain_Shahbaz.pdf"} >
+          type="button" 
+          className=" justify-center ring-offset-2 ring relative flex text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-500 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center "  download="Zain_Shahbaz.pdf" href="./Zain_Shahbaz.pdf"  >
         
           Download Resume
          
         </a>
+
+        {/* <a
+          type="button" 
+          className="pr-10 justify-center ring-offset-2 ring relative flex text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-500 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center "  download="Zain_CoverLetter.pdf" href="./Zain_CoverLetter.pdf"  >
+        
+          Download Resume
+         
+        </a> */}
+
+{/* 
+        <a
+          type="button"
+          className=" justify-center ring-offset-2 ring relative flex text-gray-900 bg-gradient-to-r from-orange-400 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-green-400 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center "  download="Zain_CoverLetter.pdf" href={myCL} >
+        
+          Download Cover Letter
+         
+        </a> */}
       </div>
 
 

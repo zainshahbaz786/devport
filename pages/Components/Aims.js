@@ -22,9 +22,9 @@ const Aims = () => {
         
         {/* main div div */}
        
-        <div className="text-xl font-serif text-green-400">
+        <div className="text-xl font-serif text-green-400 pt-8 ">
           <div className="text-3xl ">-- My hobbies are:</div>
-          <ul className="mb-8 space-y-4 text-left text-gray-500 dark:text-gray-400">
+          <ul className="mb-8 space-y-4 text-left text-gray-500 dark:text-gray-400 ">
             <li className="flex items-center space-x-3">
               <svg
                 className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
