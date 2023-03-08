@@ -40,7 +40,7 @@ const Aims = () => {
               </svg>
               <span>
                 Book Reading{" "}
-                <span className="font-semibold text-gray-900 dark:text-white">
+                <span className="font-semibold text-gray-900">
                   (Self Help Books)
                 </span>
               </span>
@@ -60,7 +60,7 @@ const Aims = () => {
               </svg>
               <span>
                 Volunteering{" "}
-                <span className="font-semibold text-gray-900 dark:text-white">
+                <span className="font-semibold text-gray-900">
                   (Social Activities)
                 </span>
               </span>
@@ -80,7 +80,7 @@ const Aims = () => {
               </svg>
               <span>
                 Cellphone Photography{" "}
-                <span className="font-semibold text-gray-900 dark:text-white"> (Editing)</span>
+                <span className="font-semibold text-gray-900 "> (Editing)</span>
               </span>
             </li>
             <li className="flex items-center space-x-3">
