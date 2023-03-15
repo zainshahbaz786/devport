@@ -39,7 +39,7 @@ const name = document.querySelector('#username').value
             Let&apos;s Build Something Incredible Together.
           </div>
     
-    <div className=' w-1/2' >Feel free to reach out if you&apos;re looking for a developer, have a question, or just want to connect.
+    <div className=' w-1/2 font-serif text-neutral-600'>Feel free to reach out if you&apos;re looking for a developer, have a question, or just want to connect.
     <br/>
     I always appreciate passionate developer who always look to work with new technologies 
     and love to contribute some betterment in the world.  
@@ -78,27 +78,27 @@ const name = document.querySelector('#username').value
 
 <form onSubmit={sendingMail}>
 <div className="mb-6 justify-center   ">
-  <label htmlFor="username-success" className="block mb-2 text-sm font-medium text-green-700 dark:text-green-500">Your name</label>
+  <label htmlFor="username-success" className="block mb-2 text-sm font-medium text-green-700 dark:text-green-500">Your Name</label>
   <input type="text" id="username" className="bg-green-50 border border-green-500 text-green-900 placeholder-green-700 text-sm rounded-lg focus:ring-green-500 focus:border-green-500  sm:w-1/2 p-2.5 dark:bg-green-100 dark:border-green-400 justify-center " placeholder="" />
   
  
 </div>
 
 
-<label htmlFor="email" className="block mb-2 text-sm font-medium text-green-700 dark:text-green-500">Your email</label>
+<label htmlFor="email" className="block mb-2 text-sm font-medium text-green-700 dark:text-green-500">Your Email</label>
 <input type="email" id="email" aria-describedby="helper-text-explanation" className="bg-green-50 border border-green-500 text-green-900 placeholder-green-700 text-sm rounded-lg focus:ring-green-500 focus:border-green-500  sm:w-1/2 p-2.5 dark:bg-green-100 dark:border-green-400 justify-center" placeholder="" />
 
 
 
 <br/>
 <br/>
-<label htmlFor="message" className="block mb-2 text-sm font-medium text-green-700 dark:text-green-500">Your message</label>
+<label htmlFor="message" className="block mb-2 text-sm font-medium text-green-700 dark:text-green-500">Your Message</label>
 
 
-<textarea id="message" rows="4" className="block p-2.5 w-full text-sm
+{/* <textarea id="message" rows="4" className="block p-2.5 w-full block mb-2 text-sm font-medium text-green-700 dark:text-green-500" placeholder="Leave a comment..."></textarea> */}
 
-text-gray-900  rounded-lg border border-green-500 focus:ring-green-700 focus:border-green-500 dark: bg-green-100 dark:border-gray-600 dark:placeholder-black dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
 
+<textarea type="text" id="email" aria-describedby="helper-text-explanation" className="w-full  bg-green-50 border border-green-500 text-green-900 placeholder-green-300 text-sm rounded-lg focus:ring-green-500 focus:border-green-500  sm:w-1/2 p-2.5 dark:bg-green-100 dark:border-green-400 justify-center" placeholder="" />
 
 
 <br/>
